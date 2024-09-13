@@ -24,9 +24,13 @@ body{
 .section-title{
     font-family: Pacifico, cursive;
 }
-/* .section-title span {
-    color: #e15f41;
-} */
+
+.lang-japan {
+    font-family: "Noto Sans JP", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: weight;
+    font-style: normal;
+}
 
 #sobre-o-restaurante, #cardapio {
     background-color: #e6e7e2;
@@ -36,14 +40,13 @@ body{
     color: #bdd40f;
 
 }
-.nav-cardapio .nav-link  .active,
-#fale-conosco button {
+.nav-cardapio .nav-link  .active{
     background-color:#bdd40f;
     color: #fff;
 }
 
-.ativacao-link button > .active {
-    background-color:#fd0026;
+#fale-conosco button {
+    background-color:#bdd40f;
     color: #fff;
 }
 
